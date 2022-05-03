@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul {
+    list-style:none;
+}
+.menu > li{
+    float:left;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    box-sizing: border-box;
+    text-align:center;
+    background-color: #ccc;
+}
+.menu > li a{
+    display: block;
+    transition: all 0.3s;
+}
+.menu > li a:hover {
+    background-color: #009688;
+    color:#fff;
+}
+.sub {
+    display:none;
+    z-index:1;
+    width:100%;
+    background:#eee;
+    opacity: 0.8;
+}
